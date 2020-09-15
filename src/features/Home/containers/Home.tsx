@@ -1,10 +1,9 @@
 import React from 'react';
 
-import styles from './Home.styles';
-import { View } from 'react-native';
+import { Layout } from '../../../components';
 
-const Home = ({}) => {
-  return <View></View>;
-};
+function Home() {
+  return <Layout header="Gatada de Vatos" />;
+}
 
 export default Home;

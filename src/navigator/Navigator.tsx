@@ -4,10 +4,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import { Detail } from '../features';
 import Root from './RootNavigator';
+import { Vato } from '../declarations/global.td';
 
 export type AuthStackParamList = {
   Root: undefined;
-  Detail: undefined;
+  Detail: { vato: Vato };
 };
 
 const Stack = createStackNavigator<AuthStackParamList>();

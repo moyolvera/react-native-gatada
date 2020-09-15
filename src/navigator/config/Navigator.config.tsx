@@ -62,6 +62,8 @@ const getTabBarOptions = (colors: ColorScheme): ViewStyle => ({
   },
   shadowOpacity: 0.58,
   shadowRadius: 16.0,
+  borderTopColor: colors.DETAILS_LIGHT,
+  borderTopWidth: 1,
 
   elevation: 24,
 });

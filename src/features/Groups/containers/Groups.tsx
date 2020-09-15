@@ -1,10 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
 
-import styles from './Groups.styles';
+import { Layout } from '../../../components';
 
-const Groups = () => {
-  return <View></View>;
-};
+function Groups() {
+  return <Layout title="Grupos" />;
+}
 
 export default Groups;
